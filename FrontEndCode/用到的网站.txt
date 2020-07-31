@@ -1,0 +1,11 @@
+背景：https://www.toptal.com/designers/subtlepatterns
+图片查找：https://unsplash.it
+首图查找：https://picsum.photos/
+编辑器Editor.md：https://pandao.github.io/editor.md/
+内容排版Typo：https://github.com/sofish/typo.css
+动画animate：https://daneden.github.io/animate.css/
+代码高亮prism：https://github.com/PrismJS/prism
+目录生成Tocbot：https://tscanlin.github.io/tocbot/
+滚动侦测waypoints：http://imakewebthings.com/waypoints/
+平滑滚动jquery.scrollTo：https://github.com/flesler/jquery.scrollTo
+二维码生成qrcode.js：https://davidshimjs.github.io/qrcodejs/
