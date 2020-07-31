@@ -35,11 +35,27 @@
 ## 二、使用教程
 ### 第一步 下载
 下载源代码，解压到本地文件夹。
-### 第二部 导入
+### 第二步 导入
 导入IDEA开发工具
-
+![导入IDEA开发工具](images/import.png)
+### 第三步 配置数据库连接
+![配置数据库连接](images/database.png)
+### 第四步 新建数据库
+![新建数据库](images/create_database.png)
+### 第五步 启动工程
+![启动工程](images/start.png)
+启动工程后会自动在连接的数据库中创建数据库表。
+### 创建管理员账户
 **添加管理员用户SQL语句**：
 ``` SQL
-INSERT INTO `t_user` VALUES ('1', 'https://unsplash.it/100/100?image=1005', '2017-11-10 21:06:49', '1725805106@qq.com', '管理员', '96e79218965eb72c92a549dd5a330112', '1', '2019-01-09 07:57:00', 'admin');
+INSERT INTO `t_user` 
+('avatar', 'password', 'update_time', 'id', 'nickname', 'email', 'create_time', 'type', 'username') 
+VALUES ('1', 'https://unsplash.it/100/100?image=1005', '2017-11-10 21:06:49', '1725805106@qq.com', '管理员', '96e79218965eb72c92a549dd5a330112', '1', '2019-01-09 07:57:00', 'admin');
 ```
-
+### 第七步 登录后台
+1. 访问http://127.0.0.1/admin访问后台管理页面。    
+2. 输入用户名：admin，密码：111111登录系统
+3. 进行管理操作。
+## 三、联系方式
+- 邮箱：daozhixs@gmail.com    
+- QQ：1725805106
