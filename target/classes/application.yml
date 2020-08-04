@@ -1,0 +1,9 @@
+spring:
+    thymeleaf:
+        mode: HTML    # 前端展示方式
+    profiles:
+        active: production
+    messages:
+        basename: globalization/messages
+
+comment.avatar: /images/avatar.png
