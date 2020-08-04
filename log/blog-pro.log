@@ -159,3 +159,14 @@ Caused by: com.mysql.cj.exceptions.ConnectionIsClosedException: No operations al
 2020-08-04 13:44:01.904  INFO 7964 --- [restartedMain] com.daozhi.blog.BlogApplication          : Starting BlogApplication on Daozhi with PID 7964 (D:\Learning Meterials\Blog\target\classes started by Daozhi in D:\Learning Meterials\Blog)
 2020-08-04 13:44:01.907  INFO 7964 --- [restartedMain] com.daozhi.blog.BlogApplication          : The following profiles are active: production
 2020-08-04 13:44:06.037  INFO 7964 --- [restartedMain] com.daozhi.blog.BlogApplication          : Started BlogApplication in 4.47 seconds (JVM running for 5.13)
+2020-08-04 14:17:22.318  INFO 9836 --- [restartedMain] com.daozhi.blog.BlogApplication          : Starting BlogApplication on Daozhi with PID 9836 (D:\Learning Meterials\Blog\target\classes started by Daozhi in D:\Learning Meterials\Blog)
+2020-08-04 14:17:22.321  INFO 9836 --- [restartedMain] com.daozhi.blog.BlogApplication          : The following profiles are active: production
+2020-08-04 14:17:26.483  INFO 9836 --- [restartedMain] com.daozhi.blog.BlogApplication          : Started BlogApplication in 4.532 seconds (JVM running for 5.19)
+2020-08-04 14:17:32.444  INFO 9836 --- [http-nio-80-exec-1] com.daozhi.blog.aspect.LogAspect         : Request: {url='http://127.0.0.1/', ip='127.0.0.1', classMethod='com.daozhi.blog.web.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-08-04 14:17:32.537  WARN 9836 --- [http-nio-80-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-08-04 14:17:32.550  WARN 9836 --- [http-nio-80-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-08-04 14:17:32.557  INFO 9836 --- [http-nio-80-exec-1] com.daozhi.blog.aspect.LogAspect         : ----------doAfter----------
+2020-08-04 14:17:32.557  INFO 9836 --- [http-nio-80-exec-1] com.daozhi.blog.aspect.LogAspect         : Result: index
+2020-08-04 14:17:33.335  INFO 9836 --- [http-nio-80-exec-6] com.daozhi.blog.aspect.LogAspect         : Request: {url='http://127.0.0.1/footer/newBlog', ip='127.0.0.1', classMethod='com.daozhi.blog.web.IndexController.newBlogs', args=[{}]}
+2020-08-04 14:17:33.345  INFO 9836 --- [http-nio-80-exec-6] com.daozhi.blog.aspect.LogAspect         : ----------doAfter----------
+2020-08-04 14:17:33.345  INFO 9836 --- [http-nio-80-exec-6] com.daozhi.blog.aspect.LogAspect         : Result: _fragments :: newBlogList
