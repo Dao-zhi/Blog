@@ -1,7 +1,7 @@
 spring:
     datasource:
         driver-class-name: com.mysql.cj.jdbc.Driver    # 驱动
-        url: jdbc:mysql://127.0.0.1:3306/blog?useUnicode=true&characterEncoding=utf-8&serverTimezone=GMT    # 数据库url
+        url: jdbc:mysql://207.246.83.143:3306/blog?useUnicode=true&characterEncoding=utf-8&serverTimezone=GMT    # 数据库url
         username: root    # 用户名
         password: 431241wjw    # 密码
     jpa:

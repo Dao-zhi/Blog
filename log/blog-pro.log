@@ -156,3 +156,6 @@ Caused by: com.mysql.cj.exceptions.ConnectionIsClosedException: No operations al
 	... 102 common frames omitted
 
 2020-08-04 13:16:46.985  WARN 3296 --- [http-nio-80-exec-10] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.dao.DataAccessResourceFailureException: Unable to acquire JDBC Connection; nested exception is org.hibernate.exception.JDBCConnectionException: Unable to acquire JDBC Connection]
+2020-08-04 13:44:01.904  INFO 7964 --- [restartedMain] com.daozhi.blog.BlogApplication          : Starting BlogApplication on Daozhi with PID 7964 (D:\Learning Meterials\Blog\target\classes started by Daozhi in D:\Learning Meterials\Blog)
+2020-08-04 13:44:01.907  INFO 7964 --- [restartedMain] com.daozhi.blog.BlogApplication          : The following profiles are active: production
+2020-08-04 13:44:06.037  INFO 7964 --- [restartedMain] com.daozhi.blog.BlogApplication          : Started BlogApplication in 4.47 seconds (JVM running for 5.13)
