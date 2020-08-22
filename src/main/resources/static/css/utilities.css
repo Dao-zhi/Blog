@@ -180,10 +180,6 @@ body::-webkit-scrollbar-thumb:hover {
     color: #333 !important;
 }
 
-.m-teal{
-    color: #00b5ad !important;
-}
-
 /* ----- position ----- */
 .m-top-right {
     position: absolute;
@@ -212,7 +208,7 @@ body::-webkit-scrollbar-thumb:hover {
     }
 
     .m-mobile-lr-clear {
-        padding-left: 0 !important;
-        padding-right: 0 !important;
+        padding-left: 1em !important;
+        padding-right: 1em !important;
     }
 }
