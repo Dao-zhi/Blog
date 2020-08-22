@@ -50,7 +50,7 @@
 ``` SQL
 INSERT INTO `t_user` 
 ('avatar', 'password', 'update_time', 'id', 'nickname', 'email', 'create_time', 'type', 'username') 
-VALUES ('1', 'https://unsplash.it/100/100?image=1005', '2017-11-10 21:06:49', '1725805106@qq.com', '管理员', '96e79218965eb72c92a549dd5a330112', '1', '2019-01-09 07:57:00', 'admin');
+VALUES ('1', 'https://unsplash.it/100/100?image=1005', '2017-11-10 21:06:49', '123456789@qq.com', '管理员', '96e79218965eb72c92a549dd5a330112', '1', '2019-01-09 07:57:00', 'admin');
 ```
 ### 第七步 登录后台
 1. 访问http://127.0.0.1/admin访问后台管理页面。    
